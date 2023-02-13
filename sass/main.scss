@@ -1,0 +1,51 @@
+@import "./utils/vars";
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/article";
+@import "./components/section-one";
+@import "./components/section-two";
+@import "./components/section-three";
+@import "./components/section-four";
+@import "./components/section-five";
+@import "./components/footer";
+@import "./components/backdrop";
+@import "./components/post-article";
+@import "./components/post-section";
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $main-color;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0px;
+    height: 100%;
+}
+.main-header {
+    border-bottom: 1px solid $header-color;
+}
+.section-one {
+    padding-top: 94px;
+    padding-bottom: 30px;
+}
+.section-two,
+.section-three,
+.section-five {
+    padding-top: 0px;
+    padding-bottom: 94px;
+}
+.section-four {
+    background-color: $sectionBackground-color;
+    width: 1600px;
+    margin: 0 auto;
+    background-position: center center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.post-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

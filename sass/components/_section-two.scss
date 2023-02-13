@@ -1,0 +1,26 @@
+.section-two__items {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0%;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-two__content:nth-child(-n+3) {
+    margin-right: 30px;
+}
+.section-two__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.section-two__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $primary-color;
+    text-align: justify;
+}

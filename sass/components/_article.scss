@@ -1,0 +1,43 @@
+.main-article {
+    display: inline-block;
+    width: 1600px;
+    margin: 0 auto;
+    padding: 0px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/main-page-team.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    min-height: 100%;
+
+    &__title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        margin: 0 auto;
+        margin-top: 200px;
+        color: $title-color;
+    }
+
+    &__button {
+        cursor: pointer;
+        color: $title-color;
+        background-color: $brand-color;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        text-align: center;
+        letter-spacing: 0.06em;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        padding: 10px 41px 10px 42px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 200px;
+        display: flex;
+        justify-content: center;
+        border: none;
+    }
+}

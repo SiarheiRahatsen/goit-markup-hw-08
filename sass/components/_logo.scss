@@ -1,0 +1,21 @@
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: $logo-color;
+
+    &__footer {
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: $title-color;
+    }
+
+    &__item {
+    color: $brand-color;
+    }
+}

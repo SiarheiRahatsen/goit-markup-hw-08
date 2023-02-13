@@ -1,0 +1,19 @@
+.section-one__items {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0%;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-one__items-background {
+    height: 120px;
+    width: 270px;
+    background-color: $section-color;
+    border-radius: 4px;
+}
+.section-one__item {
+    width: 70px;
+    height: 70px;
+    margin: 25px 100px 25px 100px;
+}

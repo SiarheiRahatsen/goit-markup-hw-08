@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework-07</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/goit-markup-hw-07/css/main.min.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="main-nav">
+          <a class="logo" href="/goit-markup-hw-07/index.html"
+            ><span class="logo__item">Web</span>Studio</a
+          >
+          <nav>
+            <!-- Nawigacja do innych stron -->
+            <ul class="main-nav__list">
+              <li><a class="main-nav__item" href="/agencja">Agencja</a></li>
+              <li>
+                <a
+                  class="main-nav__item"
+                  href="/goit-markup-hw-07/portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li><a class="main-nav__item" href="/kontakt">Kontakt</a></li>
+            </ul>
+          </nav>
+          <ul class="main-nav__contacts">
+            <li>
+              <svg class="main-nav__icon-envelope">
+                <use
+                  href="/goit-markup-hw-07/images/icons.svg#icon-envelope"
+                ></use>
+              </svg>
+            </li>
+            <li>
+              <a class="main-nav__item-mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <svg class="main-nav__icon-smartphone">
+                <use
+                  href="/goit-markup-hw-07/images/icons.svg#icon-smartphone"
+                ></use>
+              </svg>
+            </li>
+            <li class="main-nav__item-tel">+48 111 111 111</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <article class="main-article">
+        <div class="container">
+          <h1 class="main-article__title" lang="pl">
+            Efektywne rozwiązania <br />
+            dla waszego biznesu
+          </h1>
+          <button class="main-article__button" type="button" data-modal-open>
+            Zamów usługe
+          </button>
+        </div>
+      </article>
+      <section class="section-one">
+        <div class="container">
+          <ul class="section-one__items">
+            <div class="section-one__items-background">
+              <li>
+                <svg class="section-one__item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-antenna-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="section-one__items-background">
+              <li>
+                <svg class="section-one__item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-clock-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="section-one__items-background">
+              <li>
+                <svg class="section-one__item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-diagram-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="section-one__items-background">
+              <li>
+                <svg class="section-one__item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-astronaut-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </section>
+      <section class="section-two">
+        <div class="container">
+          <ul class="section-two__items">
+            <li class="section-two__content">
+              <h2 class="section-two__title">Lorem ipsum</h2>
+              <p class="section-two__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="section-two__content">
+              <h2 class="section-two__title">Lorem ipsum</h2>
+              <p class="section-two__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="section-two__content">
+              <h2 class="section-two__title">Lorem ipsum</h2>
+              <p class="section-two__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="section-two__content">
+              <h2 class="section-two__title">Lorem ipsum</h2>
+              <p class="section-two__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-three">
+        <div class="container">
+          <h2 class="section-three__title" lang="pl">Czym się zajmujemy</h2>
+          <ul class="section-three__items">
+            <li>
+              <figure class="section-three__figure">
+                <img
+                  class="section-three__image"
+                  src="images/image1.jpg"
+                  alt="hands on the keyboard"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="section-three__figcaprion">Aplikacje komputerowe</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="section-three__figure">
+                <img
+                  class="section-three__image"
+                  src="images/image2.jpg"
+                  alt="person and laptop"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="section-three__figcaprion">Aplikacje mobilne</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="section-three__figure">
+                <img
+                  class="section-three__image"
+                  src="images/image3.jpg"
+                  alt="tablet in the hand"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <p class="section-three__figcaprion">Rozwiązania graficzne</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-four">
+        <div class="container">
+          <h2 class="section-four__title" lang="pl">Nasz zespół</h2>
+          <ul class="section-four__items">
+            <li>
+              <figure class="section-four__figure">
+                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
+                <div class="section-four__image">
+                  <img
+                    src="images/img1.jpg"
+                    alt="image of person"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <figcaption class="section-four__figcaption">
+                  <p class="section-four__figcaption-name">John Doe</p>
+                  <p class="section-four__figcaption-work">Product Designer</p>
+                  <ul class="section-four__social-items">
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-instagram-2"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-twitter-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-facebook-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-linkedin-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                  </ul>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="section-four__figure">
+                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
+                <div class="section-four__image">
+                  <img
+                    src="images/img2.jpg"
+                    alt="image of person"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <figcaption class="section-four__figcaption">
+                  <p class="section-four__figcaption-name">John Doe</p>
+                  <p class="section-four__figcaption-work">
+                    Frontend Developer
+                  </p>
+                  <ul class="section-four__social-items">
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-instagram-2"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-twitter-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-facebook-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-linkedin-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                  </ul>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="section-four__figure">
+                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
+                <div class="section-four__image">
+                  <img
+                    src="images/img3.jpg"
+                    alt="image of person"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <figcaption class="section-four__figcaption">
+                  <p class="section-four__figcaption-name">John Doe</p>
+                  <p class="section-four__figcaption-work">Marketing</p>
+                  <ul class="section-four__social-items">
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-instagram-2"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-twitter-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-facebook-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-linkedin-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                  </ul>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="section-four__figure">
+                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
+                <div class="section-four__image">
+                  <img
+                    src="images/img4.jpg"
+                    alt="image of person"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <figcaption class="section-four__figcaption">
+                  <p class="section-four__figcaption-name">John Doe</p>
+                  <p class="section-four__figcaption-work">UI Designer</p>
+                  <ul class="section-four__social-items">
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-instagram-2"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-twitter-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-facebook-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                    <div class="section-four__social-background">
+                      <li>
+                        <svg class="section-four__social-item">
+                          <use
+                            href="/goit-markup-hw-07/images/icons.svg#icon-linkedin-1"
+                          ></use>
+                        </svg>
+                      </li>
+                    </div>
+                  </ul>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-five">
+        <div class="container">
+          <h2 class="section-five__title" lang="pl">Nasi klienci</h2>
+          <ul class="section-five__items">
+            <div class="section-five__background">
+              <li>
+                <svg class="section-five__item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-client-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="section-five__background">
+              <li>
+                <svg class="section-five__item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-client-2"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="section-five__background">
+              <li>
+                <svg class="section-five__item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-client-3"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="section-five__background">
+              <li>
+                <svg class="section-five__item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-client-4"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="section-five__background">
+              <li>
+                <svg class="section-five__item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-client-5"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="section-five__background">
+              <li>
+                <svg class="section-five__item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-client-6"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="main-footer__contacts">
+          <a class="logo__footer" href="/goit-markup-hw-07/index.html"
+            ><span class="logo__item">Web</span>Studio</a
+          >
+          <address class="main-footer__item-address">
+            m. Warszawa, Aleje Jerozolimskie 21 <br />
+            <a class="main-footer__item-mail" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+            <br />
+            <span class="main-footer__item-tel">+48 111 111 111</span>
+          </address>
+        </div>
+        <div class="main-footer__contacts">
+          <h2 class="main-footer__title" lang="pl">Dołącz do nas</h2>
+          <ul class="main-footer__social-items">
+            <div class="main-footer__social-background">
+              <li>
+                <svg class="main-footer__social-item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-instagram-2"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="main-footer__social-background">
+              <li>
+                <svg class="main-footer__social-item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-twitter-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="main-footer__social-background">
+              <li>
+                <svg class="main-footer__social-item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-facebook-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+            <div class="main-footer__social-background">
+              <li>
+                <svg class="main-footer__social-item">
+                  <use
+                    href="/goit-markup-hw-07/images/icons.svg#icon-linkedin-1"
+                  ></use>
+                </svg>
+              </li>
+            </div>
+          </ul>
+        </div>
+        <div class="main-footer__contacts">
+          <form>
+            <label class="main-footer__form-title" for="user_email"
+              >Zapisz się do newslettera</label
+            >
+            <input
+              class="main-footer__form-data"
+              type="email"
+              name="email"
+              id="user_email"
+              placeholder="E-mail"
+            />
+            <button class="main-footer__form-button" type="submit">
+              Zapisz się
+            </button>
+            <svg class="main-footer__icon-send">
+              <use
+                href="/goit-markup-hw-07/images/icons.svg#icon-icon-send1"
+              ></use>
+            </svg>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+        <div>
+          <p class="form-input-text">Zostaw swoje dane w formularzu poniżej</p>
+          <form>
+            <label class="feedback-data-contacts">
+              <div class="feedback-text-contacts">Imie</div>
+              <svg class="icon-item">
+                <use
+                  href="/goit-markup-hw-07/images/icons.svg#icon-person-black-18dp-11"
+                ></use>
+              </svg>
+              <input class="feedback-data-form" type="text" name="username" />
+            </label>
+            <label class="feedback-data-contacts">
+              <div class="feedback-text-contacts">Telefon</div>
+              <svg class="icon-item">
+                <use
+                  href="/goit-markup-hw-07/images/icons.svg#icon-phone-black-18dp-1"
+                ></use>
+              </svg>
+              <input
+                class="feedback-data-form"
+                type="tel"
+                name="phone_number"
+              />
+            </label>
+            <label class="feedback-data-contacts">
+              <div class="feedback-text-contacts">Email</div>
+              <svg class="icon-item">
+                <use
+                  href="/goit-markup-hw-07/images/icons.svg#icon-email-black-18dp-11"
+                ></use>
+              </svg>
+              <input class="feedback-data-form" type="email" name="email" />
+            </label>
+            <label class="feedback-data-contacts">
+              <div class="feedback-text-contacts">Komentarz</div>
+              <textarea
+                class="feedback-text"
+                name="feedback"
+                placeholder="Wprowadź tekst"
+              ></textarea>
+            </label>
+            <label class="feedback-data-checkbox">
+              <input type="checkbox" name="checkbox" value="icon-check" />
+              <div class="feedback-data-regular">
+                Oświadczam iż akceptuję <span>Regulamin</span> i
+                <span>Politykę Prywatności.</span>
+              </div>
+            </label>
+            <button class="feedback-button" type="submit">Wyślij</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
