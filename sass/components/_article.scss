@@ -47,6 +47,15 @@
     }
 }
 
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),  
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .main-article {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/main-page-team@2x.jpg);
+  }
+}
+
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .main-article {
         // position: relative;
@@ -58,7 +67,7 @@
         // min-width: 480px;
         margin: 0 auto;
         // padding: 0px;
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/main-page-team.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/main-page-team@2x.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: 480px 400px;
@@ -66,8 +75,8 @@
     
         &__title {
             font-weight: 900;
-            font-size: 44px;
-            line-height: 1.36;
+            font-size: 26px;
+            line-height: 1.62;
             text-align: center;
             letter-spacing: 0.06em;
             text-transform: uppercase;
@@ -98,6 +107,15 @@
     }
   }
 
+  @media (min-device-pixel-ratio: 3),
+(-webkit-min-device-pixel-ratio: 3),  
+(min-resolution: 288dpi),
+(min-resolution: 3dppx) {
+    .main-article {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/main-page-team@3x.jpg);
+  }
+}
+
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     .main-article {
         // position: relative;
@@ -109,7 +127,7 @@
         // min-width: 480px;
         margin: 0 auto;
         // padding: 0px;
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/main-page-team.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/main-page-team@3x.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: 768px 400px;
@@ -117,8 +135,8 @@
     
         &__title {
             font-weight: 900;
-            font-size: 44px;
-            line-height: 1.36;
+            font-size: 26px;
+            line-height: 1.62;
             text-align: center;
             letter-spacing: 0.06em;
             text-transform: uppercase;

@@ -19,3 +19,53 @@
     color: $brand-color;
     }
 }
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .logo {
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: $logo-color;
+    
+        &__footer {
+            text-decoration: none;
+            font-family: 'Raleway', sans-serif;
+            font-size: 26px;
+            line-height: 1.2;
+            letter-spacing: 0.03em;
+            color: $title-color;
+            margin: 60px 163px 0px 163px;
+        }
+    
+        &__item {
+        color: $brand-color;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .logo {
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: $logo-color;
+    
+        &__footer {
+            text-decoration: none;
+            font-family: 'Raleway', sans-serif;
+            font-size: 26px;
+            line-height: 1.2;
+            letter-spacing: 0.03em;
+            color: $title-color;
+            margin: 60px 204px 20px 115px;
+        }
+    
+        &__item {
+        color: $brand-color;
+        }
+    }
+}

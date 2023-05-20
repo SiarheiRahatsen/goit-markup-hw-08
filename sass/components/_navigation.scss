@@ -97,3 +97,109 @@
     color: $primary-color;
     margin-left: 10px;
 }
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .main-nav {
+        display: flex;
+        list-style: none;
+        justify-content: left;
+        align-items: center;
+    }
+    .main-nav__list {
+        display: flex;
+        list-style: none;
+        padding: 0px;
+        margin: 32px 0px 32px 93px;
+    }
+    .main-nav__item {
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 46px;
+        text-align: center;
+        text-decoration: none;
+        color: $main-color;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        &::after {
+        content: "";
+            display: inline-block;
+            background: $main-color;
+            width: 100%;
+            margin-bottom: -37px;
+            padding: 2px;
+            border-radius: 2px;
+            visibility: hidden;
+        }
+    
+        &:hover::after {
+            background: $brand-color;
+            visibility: visible;
+            transition: $main-transition;
+        }
+    
+        &:hover,
+        &:focus,
+        &:active {
+            color: $brand-color;
+            transition: $main-transition;
+        }
+    }
+    .main-nav__contacts {
+        display: block;
+        list-style: none;
+        padding: 0%;
+        margin: 32px 0px 32px 100px;
+        text-align: left;
+    }
+    .main-nav__icon-envelope {
+        width: 16px;
+        height: 12px;
+        margin: 0%;
+        margin-right: 10px;
+        cursor: pointer;
+    
+        &:hover {
+            fill: $brand-color;
+            transition: $main-transition;
+        }
+    }
+    .main-nav__item-mail {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        padding-right: 50px;
+        padding: 0px;
+        text-align: center;
+        color: $primary-color;
+    
+        &:hover,
+        &:focus,
+        &:active {
+            color: $brand-color;
+            transition: $main-transition;
+        }
+    }
+    .main-nav__icon-smartphone {
+        width: 10px;
+        height: 16px;
+        margin-left: 30px;
+    }
+    .main-nav__item-tel {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: $primary-color;
+        margin-left: 10px;
+    }
+}

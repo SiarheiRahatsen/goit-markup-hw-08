@@ -100,46 +100,66 @@
       <section class="section-one">
         <div class="container">
           <ul class="section-one__items">
-            <div class="section-one__items-background">
-              <li>
+            <li>
+              <div class="section-one__items-background">
                 <svg class="section-one__item">
                   <use
                     href="/goit-markup-hw-08/images/icons.svg#icon-antenna-1"
                   ></use>
                 </svg>
-              </li>
-            </div>
-            <div class="section-one__items-background">
-              <li>
+              </div>
+              <h2 class="section-one__title">Lorem ipsum</h2>
+              <p class="section-one__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <div class="section-one__items-background">
                 <svg class="section-one__item">
                   <use
                     href="/goit-markup-hw-08/images/icons.svg#icon-clock-1"
                   ></use>
                 </svg>
-              </li>
-            </div>
-            <div class="section-one__items-background">
-              <li>
+              </div>
+              <h2 class="section-one__title">Lorem ipsum</h2>
+              <p class="section-one__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <div class="section-one__items-background">
                 <svg class="section-one__item">
                   <use
                     href="/goit-markup-hw-08/images/icons.svg#icon-diagram-1"
                   ></use>
                 </svg>
-              </li>
-            </div>
-            <div class="section-one__items-background">
-              <li>
+              </div>
+              <h2 class="section-one__title">Lorem ipsum</h2>
+              <p class="section-one__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <div class="section-one__items-background">
                 <svg class="section-one__item">
                   <use
                     href="/goit-markup-hw-08/images/icons.svg#icon-astronaut-1"
                   ></use>
                 </svg>
-              </li>
-            </div>
+              </div>
+              <h2 class="section-one__title">Lorem ipsum</h2>
+              <p class="section-one__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
           </ul>
         </div>
       </section>
-      <section class="section-two">
+      <!-- <section class="section-two">
         <div class="container">
           <ul class="section-two__items">
             <li class="section-two__content">
@@ -163,16 +183,9 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="section-two__content">
-              <h2 class="section-two__title">Lorem ipsum</h2>
-              <p class="section-two__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <section class="section-three">
         <div class="container">
           <h2 class="section-three__title" lang="pl">Czym się zajmujemy</h2>
@@ -232,9 +245,13 @@
                 <div class="section-four__image">
                   <img
                     src="images/img1.jpg"
+                    srcset="
+                      images/img1.jpg     270w,
+                      images/img1-354.jpg 354w,
+                      images/img1-450.jpg 450w
+                    "
+                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
                     alt="image of person"
-                    width="270"
-                    height="260"
                   />
                 </div>
                 <figcaption class="section-four__figcaption">
@@ -287,9 +304,13 @@
                 <div class="section-four__image">
                   <img
                     src="images/img2.jpg"
+                    srcset="
+                      images/img2.jpg     270w,
+                      images/img2-354.jpg 354w,
+                      images/img2-450.jpg 450w
+                    "
+                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
                     alt="image of person"
-                    width="270"
-                    height="260"
                   />
                 </div>
                 <figcaption class="section-four__figcaption">
@@ -344,9 +365,13 @@
                 <div class="section-four__image">
                   <img
                     src="images/img3.jpg"
+                    srcset="
+                      images/img3.jpg     270w,
+                      images/img3-354.jpg 354w,
+                      images/img3-450.jpg 450w
+                    "
+                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
                     alt="image of person"
-                    width="270"
-                    height="260"
                   />
                 </div>
                 <figcaption class="section-four__figcaption">
@@ -399,9 +424,13 @@
                 <div class="section-four__image">
                   <img
                     src="images/img4.jpg"
+                    srcset="
+                      images/img4.jpg     270w,
+                      images/img4-354.jpg 354w,
+                      images/img4-450.jpg 450w
+                    "
+                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
                     alt="image of person"
-                    width="270"
-                    height="260"
                   />
                 </div>
                 <figcaption class="section-four__figcaption">
@@ -625,23 +654,27 @@
             >info@devstudio.com</a
           >
         </li>
+      </ul>
+      <ul class="mobile-menu">
         <li>
-          <a class="main-nav__item" href="https://www.instagram.com/"
+          <a class="main-nav__item-network" href="https://www.instagram.com/"
             >Instagram</a
           >
         </li>
         <li>
-          <a class="main-nav__item" href="https://www.twitter.com/">Twitter</a>
+          <a class="main-nav__item-network" href="https://www.twitter.com/"
+            >Twitter</a
+          >
           <hr class="main-nav__item-decoration" />
         </li>
         <li>
-          <a class="main-nav__item" href="https://www.facebook.com/"
+          <a class="main-nav__item-network" href="https://www.facebook.com/"
             >Facebook</a
           >
           <hr class="main-nav__item-decoration" />
         </li>
         <li>
-          <a class="main-nav__item" href="https://www.linkedin.com/"
+          <a class="main-nav__item-network" href="https://www.linkedin.com/"
             >LinkedIn</a
           >
           <hr class="main-nav__item-decoration" />

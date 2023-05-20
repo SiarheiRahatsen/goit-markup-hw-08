@@ -77,14 +77,32 @@
     list-style: none;
   }
   
-  .mobile-menu .link {
+  .mobile-menu .main-nav__item {
     display: block;
-    padding: 10px;
-    color: #fff;
+    // padding: 10px;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: $main-color;
+    margin-left: 40px;
   }
+  .mobile-menu .main-nav__item-network {
+    display: inline;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: $brand-color;
+    margin: 0px 83px 48px 40px;
+  }
+
   .main-nav__item-decoration {
     // position: absolute;
+    display: inline;
     width: 22px;
     height: 0px;
     // left: 135px;
@@ -92,3 +110,31 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     transform: rotate(90deg);
   }
+  .mobile-menu .main-nav__item-tel {
+    position: absolute;
+    width: 267px;
+    height: 40px;
+    left: 40px;
+    top: 562px;
+
+    display: inline-block;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: $brand-color;
+  }
+  .mobile-menu .main-nav__item-mail {
+    position: absolute;
+    width: 231px;
+    height: 28px;
+    left: 40px;
+    top: 634px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: $primary-color;
+  }
+
