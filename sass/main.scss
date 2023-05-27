@@ -31,17 +31,21 @@ body {
 .section-one {
     padding-top: 94px;
     padding-bottom: 30px;
+    // width: 1600px;
+    // margin: 0 auto;
 }
 .section-two,
 .section-three,
 .section-five {
     padding-top: 0px;
     padding-bottom: 94px;
+    // width: 1600px;
+    // margin: 0 auto;
 }
 .section-four {
-    background-color: $sectionBackground-color;
-    width: 1600px;
-    margin: 0 auto;
+    background-color: $section-color;
+    // width: 1600px;
+    // margin: 0 auto;
     background-position: center center;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -65,12 +69,17 @@ img {
     }
 
     .section-four {
-        background-color: $sectionBackground-color;
+        background-color: $section-color;
         width: 480px;
         margin: 0 auto;
         background-position: center center;
-        padding-top: 94px;
-        padding-bottom: 94px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .section-one {
+        padding-top: 60px;
+        padding-bottom: 30px;
     }
 }
 
@@ -83,11 +92,11 @@ img {
     }
 
     .section-four {
-        background-color: $sectionBackground-color;
+        background-color: $section-color;
         width: 768px;
         margin: 0 auto;
         background-position: center center;
-        padding-top: 94px;
-        padding-bottom: 94px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }

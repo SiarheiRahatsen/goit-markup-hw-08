@@ -3,10 +3,10 @@
     // left: 0px;
     // top: 80px;
     display: flex;
-    width: 1600px;
+    // width: 1600px;
     height: 600px;
     // min-width: 480px;
-    margin: 0 auto;
+    // margin: 0 auto;
     // padding: 0px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/main-page-team.jpg);
     background-position: center center;
@@ -80,8 +80,7 @@
             text-align: center;
             letter-spacing: 0.06em;
             text-transform: uppercase;
-            margin: 0 auto;
-            margin-top: 200px;
+            margin: 118px 58px 30px 57px;
             color: $title-color;
         }
     
@@ -98,8 +97,8 @@
             border-radius: 4px;
             padding: 10px 41px 10px 42px;
             margin: 0 auto;
-            margin-top: 30px;
-            margin-bottom: 200px;
+            
+            margin-bottom: 118px;
             display: flex;
             justify-content: center;
             border: none;
@@ -141,7 +140,7 @@
             letter-spacing: 0.06em;
             text-transform: uppercase;
             margin: 0 auto;
-            margin-top: 200px;
+            margin-top: 118px;
             color: $title-color;
         }
     

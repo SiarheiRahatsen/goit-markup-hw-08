@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: center;
   
-    margin: 0;
+    margin: 10px 15px 10px 276px;
     padding: 0;
     background-color: transparent;
     cursor: pointer;
@@ -71,70 +71,160 @@
     color: $logo-color;
   }
   
-  .mobile-menu {
+  // .mobile-menu {
+  //   padding: 0;
+  //   margin: 0;
+  //   list-style: none;
+  // }
+  
+  // .mobile-menu .main-nav__item {
+  //   display: block;
+  //   // padding: 10px;
+  //   text-decoration: none;
+  //   font-weight: 500;
+  //   font-size: 40px;
+  //   line-height: 1.18;
+  //   text-align: center;
+  //   letter-spacing: 0.02em;
+  //   color: $main-color;
+  //   margin-left: 40px;
+  // }
+  // .mobile-menu .main-nav__item-network {
+  //   display: inline;
+  //   text-decoration: none;
+  //   font-weight: 500;
+  //   font-size: 18px;
+  //   line-height: 1.22;
+  //   letter-spacing: 0.02em;
+  //   color: $brand-color;
+  //   margin: 0px 83px 48px 40px;
+  // }
+
+  // .main-nav__item-decoration {
+  //   // position: absolute;
+  //   display: inline;
+  //   width: 22px;
+  //   height: 0px;
+  //   // left: 135px;
+  //   // top: 726px;
+  //   border: 1px solid rgba(33, 33, 33, 0.2);
+  //   transform: rotate(90deg);
+  // }
+  // .mobile-menu .main-nav__item-tel {
+  //   position: absolute;
+  //   width: 267px;
+  //   height: 40px;
+  //   left: 40px;
+  //   top: 562px;
+
+  //   display: inline-block;
+  //   font-weight: 500;
+  //   font-size: 34px;
+  //   line-height: 1.18;
+  //   letter-spacing: 0.02em;
+  //   color: $brand-color;
+  // }
+  // .mobile-menu .main-nav__item-mail {
+  //   position: absolute;
+  //   width: 231px;
+  //   height: 28px;
+  //   left: 40px;
+  //   top: 634px;
+
+  //   font-weight: 500;
+  //   font-size: 24px;
+  //   line-height: 1.17;
+  //   letter-spacing: 0.02em;
+  //   color: $primary-color;
+  // }
+
+  .mobile-menu__navigation {
     padding: 0;
     margin: 0;
     list-style: none;
   }
-  
-  .mobile-menu .main-nav__item {
+
+  .mobile-menu__item {
     display: block;
     // padding: 10px;
     text-decoration: none;
     font-weight: 500;
     font-size: 40px;
     line-height: 1.18;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0.02em;
     color: $main-color;
     margin-left: 40px;
-  }
-  .mobile-menu .main-nav__item-network {
-    display: inline;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.22;
-    letter-spacing: 0.02em;
-    color: $brand-color;
-    margin: 0px 83px 48px 40px;
+    margin-top: 32px;
   }
 
-  .main-nav__item-decoration {
-    // position: absolute;
-    display: inline;
-    width: 22px;
-    height: 0px;
-    // left: 135px;
-    // top: 726px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    transform: rotate(90deg);
+  .mobile-menu__item:first-child {
+    margin-top: 48px;
   }
-  .mobile-menu .main-nav__item-tel {
-    position: absolute;
-    width: 267px;
-    height: 40px;
-    left: 40px;
-    top: 562px;
+   
+  .mobile-menu__item:hover,
+  .mobile-menu__item:focus,
+  .mobile-menu__item:active {
+    color: $brand-color; 
+  }
 
-    display: inline-block;
+  .mobile-menu__contacts {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-left: 40px;
+  }
+
+  .mobile-menu__item-tel {
+    display: block;
     font-weight: 500;
     font-size: 34px;
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: $brand-color;
+    margin-top: 302px;
   }
-  .mobile-menu .main-nav__item-mail {
-    position: absolute;
-    width: 231px;
-    height: 28px;
-    left: 40px;
-    top: 634px;
 
+  .mobile-menu__item-mail {
+    display: block;
     font-weight: 500;
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: $primary-color;
+    margin-top: 32px;
+    text-decoration: none;
   }
+
+  .mobile-menu__networks {
+    padding: 0;
+    margin: 0;
+    margin-top: 64px;
+  }
+  
+  .mobile-menu__item-network {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: $brand-color;
+    text-decoration: none;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    // background-color: red;
+    display: inline;
+    border-left: 1px solid rgba(33, 33, 33, 0.2);
+    transform: rotate(90deg);
+
+      &:first-child {
+        margin-left: 40px;
+        padding-left: 0px;
+        border-left: none;
+  }
+
+      &:last-child {
+        padding-right: 0px;
+      }
+}
 

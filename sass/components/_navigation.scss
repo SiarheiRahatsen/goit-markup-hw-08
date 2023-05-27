@@ -9,6 +9,9 @@
     list-style: none;
     padding: 0px;
     margin: 32px 0px 32px 93px;
+    height: 16px;
+    // align-items: center;
+    // background-color: lightgreen;
 }
 .main-nav__item {
     display: block;
@@ -22,13 +25,15 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    height: 16px;
+    // background-color: lightblue;
 
     &::after {
     content: "";
         display: inline-block;
         background: $main-color;
         width: 100%;
-        margin-bottom: -37px;
+        margin-bottom: -23px;
         padding: 2px;
         border-radius: 2px;
         visibility: hidden;
@@ -60,6 +65,7 @@
     margin: 0%;
     margin-right: 10px;
     cursor: pointer;
+    fill: $primary-color;
 
     &:hover {
         fill: $brand-color;
@@ -88,6 +94,7 @@
     width: 10px;
     height: 16px;
     margin-left: 30px;
+    fill: $primary-color;
 }
 .main-nav__item-tel {
     font-weight: 500;
@@ -113,13 +120,16 @@
         display: flex;
         list-style: none;
         padding: 0px;
-        margin: 32px 0px 32px 93px;
+        margin: 32px 0px 32px 23px;
+        // background-color: lightblue;
+        align-items: center;
+        height: 16px;
     }
     .main-nav__item {
         display: block;
         padding: 0px;
         margin: 0px;
-        margin-left: 46px;
+        margin-left: 60px;
         text-align: center;
         text-decoration: none;
         color: $main-color;
@@ -127,13 +137,19 @@
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        height: 16px;
+        // background-color: lightcoral;
+
+        // &:first-child {
+        //     margin-left: 60px;
+        // }
     
         &::after {
         content: "";
             display: inline-block;
             background: $main-color;
             width: 100%;
-            margin-bottom: -37px;
+            margin-bottom: -21px;
             padding: 2px;
             border-radius: 2px;
             visibility: hidden;
@@ -153,18 +169,21 @@
         }
     }
     .main-nav__contacts {
-        display: block;
+        display: inline-block;
         list-style: none;
         padding: 0%;
-        margin: 32px 0px 32px 100px;
+        margin: 0px 0px 10px 101px;
         text-align: left;
+        // border: 1px dashed;
     }
     .main-nav__icon-envelope {
         width: 16px;
         height: 12px;
-        margin: 0%;
-        margin-right: 10px;
+        // margin: 0%;
+        // margin-right: 10px;
+        margin: 0px 0px -20px -25px;
         cursor: pointer;
+        fill: $primary-color;
     
         &:hover {
             fill: $brand-color;
@@ -177,10 +196,12 @@
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        padding-right: 50px;
+        // padding-right: 50px;
         padding: 0px;
+        // margin: 21px 15px 10px 8px;
         text-align: center;
         color: $primary-color;
+        // background-color: red;
     
         &:hover,
         &:focus,
@@ -192,7 +213,9 @@
     .main-nav__icon-smartphone {
         width: 10px;
         height: 16px;
-        margin-left: 30px;
+        // margin-left: 30px;
+        margin: 0px 0px -20px -24px;
+        fill: $primary-color;
     }
     .main-nav__item-tel {
         font-weight: 500;
@@ -200,6 +223,9 @@
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: $primary-color;
-        margin-left: 10px;
+        // text-align: left;
+        margin-left: 0px;
+        // margin: 10px 40px 21px 8px;
+        // background-color: blue;
     }
 }
