@@ -30,14 +30,14 @@ body {
 }
 .section-one {
     padding-top: 94px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     // width: 1600px;
     // margin: 0 auto;
 }
 .section-two,
 .section-three,
 .section-five {
-    padding-top: 0px;
+    padding-top: 94px;
     padding-bottom: 94px;
     // width: 1600px;
     // margin: 0 auto;
@@ -74,7 +74,7 @@ img {
         margin: 0 auto;
         background-position: center center;
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 30px;
     }
 
     .section-one {
@@ -87,7 +87,7 @@ img {
     .container {
         width: 768px;
         margin: 0 auto;
-        padding: 0px;
+        padding: 0px 15px;
         height: 100%;
     }
 
@@ -97,6 +97,11 @@ img {
         margin: 0 auto;
         background-position: center center;
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 30px;
+    }
+
+    .section-one {
+        padding-top: 60px;
+        padding-bottom: 15px;
     }
 }

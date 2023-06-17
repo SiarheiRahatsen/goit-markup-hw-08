@@ -4,6 +4,9 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 .section-five__items {
     display: flex;
@@ -13,6 +16,21 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.section-five__item-focus:hover svg, 
+.section-five__item-focus:focus svg,
+.section-five__item-focus:active svg {
+    fill: $brand-color;
+    transition: $main-transition;
+}
+
+.section-five__item-focus:hover div, 
+.section-five__item-focus:focus div,
+.section-five__item-focus:active div {
+    border-color: $brand-color;
+    transition: $main-transition;
+}
+
 .section-five__background {
     width: 170px;
     height: 92px;

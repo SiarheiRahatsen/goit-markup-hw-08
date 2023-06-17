@@ -56,8 +56,41 @@
     display: flex;
     list-style: none;
     padding: 0%;
-    margin: 32px 0px 32px 255px;
+    margin: 32px 0px 32px 290px;
     text-align: right;
+}
+
+.main-nav__contact-focus:hover svg,
+.main-nav__contact-focus:focus svg,
+.main-nav__contact-focus:active svg {
+    fill: $brand-color;
+    transition: $main-transition;
+}
+
+.main-nav__contact-focus:hover a,
+.main-nav__contact-focus:focus a,
+.main-nav__contact-focus:active a {
+    color: $brand-color;
+    transition: $main-transition;
+}
+
+.main-nav__contact-focus a {
+    height: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-right: 50px;
+    padding: 0px;
+    text-align: center;
+    color: $primary-color;
+    &:hover,
+    &:focus,
+    &:active {
+        color: $brand-color;
+        transition: $main-transition;
+    }
 }
 .main-nav__icon-envelope {
     width: 16px;
@@ -91,18 +124,32 @@
     }
 }
 .main-nav__icon-smartphone {
+    text-align: center;
     width: 10px;
     height: 16px;
     margin-left: 30px;
+    margin-right: 10px;
     fill: $primary-color;
+    &:hover {
+        fill: $brand-color;
+        transition: $main-transition;
+    }
 }
 .main-nav__item-tel {
+    display: inline;
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: $primary-color;
     margin-left: 10px;
+    &:hover,
+    &:focus,
+    &:active {
+        color: $brand-color;
+        transition: $main-transition;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -169,19 +216,57 @@
         }
     }
     .main-nav__contacts {
-        display: inline-block;
+        display: inline;
         list-style: none;
         padding: 0%;
-        margin: 0px 0px 10px 101px;
+        margin: 0px 0px 0px 71px;
         text-align: left;
         // border: 1px dashed;
     }
+
+    .main-nav__contact-focus:hover svg,
+    .main-nav__contact-focus:focus svg,
+    .main-nav__contact-focus:active svg {
+        fill: $brand-color;
+        transition: $main-transition;
+}
+
+    .main-nav__contact-focus:hover a,
+    .main-nav__contact-focus:focus a,
+    .main-nav__contact-focus:active a {
+        color: $brand-color;
+        transition: $main-transition;
+}
+
+    .main-nav__contact-focus a {
+    height: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-right: 50px;
+    padding: 0px;
+    text-align: center;
+    color: $primary-color;
+        &:hover,
+        &:focus,
+        &:active {
+            color: $brand-color;
+            transition: $main-transition;
+    }
+}
+.main-nav__contact-focus {
+        display: inline-block;
+        margin-bottom: 4px; 
+    
+}
     .main-nav__icon-envelope {
         width: 16px;
         height: 12px;
         // margin: 0%;
-        // margin-right: 10px;
-        margin: 0px 0px -20px -25px;
+        // margin-right: 8px;
+        margin: 0px 8px 0px 0px;
         cursor: pointer;
         fill: $primary-color;
     
@@ -214,7 +299,7 @@
         width: 10px;
         height: 16px;
         // margin-left: 30px;
-        margin: 0px 0px -20px -24px;
+        margin: 0px 8px 0px 0px;
         fill: $primary-color;
     }
     .main-nav__item-tel {
